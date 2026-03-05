@@ -47,3 +47,4 @@ for col in categorical_cols:
 print("Missing values after imputation:", df_final.isnull().sum().sum())
 
 df_final.to_csv('df_final.csv')
+#lets go
